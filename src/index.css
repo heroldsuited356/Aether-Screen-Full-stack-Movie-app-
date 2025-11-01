@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import "tailwindcss";
+
+/* ✅ THEME VARIABLES */
+@theme {
+    --color-primary: #030014;
+    --color-dark-100: #0f0d23;
+    --color-light-200: #a8b5db;
+    --color-gray-100: #9ca4ab;
+    --font-dm-sans: "DM Sans", sans-serif;
+    --breakpoint-xs: 480px;
+}
+
+/* ✅ BASE STYLES */
+@layer base {
+    body {
+        font-family: var(--font-dm-sans);
+        color: #fff;
+        margin: 0;
+        padding: 0;
+
+        /* ✅ New Animated Gradient Background */
+        background: linear-gradient(135deg,
+        #110011 0%,
+        #8b0000 22%,
+        #5b009f 48%,
+        #1b1c4e 72%,
+        #000000 100%);
+        background-attachment: fixed;
+        background-size: 200% 200%;
+        animation: gradientShift 14s ease infinite;
+        min-height: 100vh;
+    }
+
+    @keyframes gradientShift {
+        0% { background-position: 0% 40%; }
+        50% { background-position: 100% 60%; }
+        100% { background-position: 0% 40%; }
+    }
+
+    h1 {
+        @apply max-w-4xl mx-auto text-center text-5xl sm:text-[64px] font-bold tracking-tight mt-28 text-white;
+    }
+
+    h2 {
+        @apply text-2xl sm:text-3xl font-bold text-white;
+    }
+
+    header {
+        @apply mt-5 sm:mt-10;
+    }
+
+    header img {
+        @apply mx-auto object-contain drop-shadow-md w-56 sm:w-72 h-auto;
+    }
+}
+
+/* ✅ TRENDING — Positions Preserved */
+@layer components {
+    .trending {
+        @apply mt-20 px-4 sm:px-0 w-full;
+
+        & h2 {
+            @apply ml-2 text-white mb-4;
+        }
+
+        & ul {
+            @apply flex flex-row gap-5 overflow-x-auto hide-scrollbar w-full;
+        }
+
+        & li {
+            @apply min-w-[130px] flex flex-col items-center;
+        }
+
+        & img {
+            @apply w-[120px] h-[170px] rounded-lg object-cover shadow-xl transition-transform duration-300;
+        }
+
+        & img:hover {
+            transform: translateY(-6px) scale(1.05);
+        }
+
+        & p {
+            @apply mt-2 text-sm text-center text-white max-w-[120px] truncate;
+        }
+    }
+
+    /* ✅ Search Bar — same spacing */
+    .search {
+        @apply max-w-3xl w-full mx-auto rounded-lg bg-white/10 backdrop-blur-md px-4 py-3 mt-10 border border-white/10;
+    }
+
+    .search div {
+        @apply flex items-center relative;
+    }
+
+    .search input {
+        @apply w-full bg-transparent py-2 pl-10 text-base text-white placeholder-gray-400 outline-none;
+    }
+
+    .search img {
+        @apply absolute left-3 w-5 h-5 opacity-75;
+    }
+
+    /* ✅ Popular Movies Grid — unchanged layout */
+    .all-movies {
+        @apply mt-16;
+    }
+
+    .all-movies ul {
+        @apply grid grid-cols-2 xs:grid-cols-3 md:grid-cols-4 gap-6 w-full;
+    }
+
+    .movie-card {
+        background: rgba(15, 13, 35, 0.8);
+        border-radius: 14px;
+        padding: 12px;
+        transition: .2s ease;
+        box-shadow: 0 6px 22px rgba(0,0,0,.55);
+    }
+
+    .movie-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 14px 35px rgba(0,0,0,.7);
+    }
+
+    .movie-card img {
+        @apply w-full h-[220px] object-cover rounded-lg shadow-lg;
+    }
+
+    .movie-card h3 {
+        @apply text-white text-lg font-semibold mt-3 text-center truncate;
+    }
+
+    .rating {
+        @apply text-yellow-400 text-sm font-bold text-center;
+    }
+}
+
+/* ✅ Utilities */
+@utility hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}

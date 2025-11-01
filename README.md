@@ -1,94 +1,97 @@
-# 🎬 Aether Screen — Cross-Platform Movie Explorer
+# 🎬 Aether Screen
 
-Aether Screen is a modern and stylish full-stack movie discovery web app built using **React + TypeScript**, powered by **Appwrite backend services** and the **OMDb API** for real-time movie data. Search thousands of shows and movies with a fast, responsive UI that works perfectly across all devices.
-
----
-
-## 📋 Table of Contents
-- 🤖 Introduction  
-- ⚙️ Tech Stack  
-- 🔋 Features  
-- 🤸 Quick Start  
-- 🧩 Environment Variables  
-- 🌍 Deployment  
-- 🙌 Contributing  
-- 📜 License  
+Aether Screen is a **full-stack, cross-platform** web application built with **React, TypeScript, Appwrite**, and the **OMDB API**.  
+It delivers a sleek, responsive movie discovery experience that works seamlessly across **desktop, tablet, and mobile devices**.
 
 ---
 
-## 🤖 Introduction
+## 🌟 Features
 
-Aether Screen delivers dynamic movie search, trending content, and a smooth browsing experience anywhere.  
-Designed with a clean and premium UI, the platform adapts to mobile, tablet, and desktop with seamless performance.
-
-This project demonstrates modern full-stack development, Appwrite cloud integration, optimized UI rendering, and API-based content delivery.
-
----
-
-## ⚙️ Tech Stack
-
-| Tier | Technologies |
-|------|--------------|
-| Frontend | React.js, TypeScript, Vite |
-| Backend & Auth | Appwrite |
-| API | OMDb API |
-| Styling | CSS3 |
-| Tools | GitHub, VS Code |
+- 🔍 **Search Movies & Series** using the OMDB API
+- 📊 **Trending & Popular Sections** dynamically displayed
+- 🌈 **Modern UI** with a custom gradient theme (red, purple, navy, and black mix)
+- 🧠 **TypeScript support** for type safety
+- ☁️ **Appwrite backend integration** for authentication & data management
+- 📱 **Cross-platform compatibility** — optimized for all screens and devices
+- 🧩 **Reusable React components** and modular architecture
 
 ---
 
-## 🔋 Features
+## 🛠️ Tech Stack
 
-✅ Browse & Search Movies — Fully dynamic movie search  
-✅ Trending Section — Displays curated popular titles  
-✅ Cross-Platform — Works smoothly on Android, iOS, Windows, macOS & Web  
-✅ Optimized Images — Fallback image when posters are unavailable  
-✅ Real-time Fetching — OMDb API-powered content  
-✅ Clean UI/UX — Inspired by modern streaming apps  
-✅ Secure Architecture — API key protected in `.env`  
-✅ Fast Development Experience — Vite-powered
-
-…and more improvements coming soon!
+| Category | Tools Used |
+|-----------|-------------|
+| Frontend | React (Vite) + TypeScript + Tailwind CSS |
+| Backend | Appwrite (Auth, Database) |
+| API | OMDB API for movie data |
+| Deployment | Vercel / Netlify |
+| Version Control | Git + GitHub |
 
 ---
 
-## 🤸 Quick Start
+## ⚙️ Setup Instructions
 
-### ✅ Prerequisites
-Ensure these are installed:
-- Node.js
-- npm
-- Git
+### 1️⃣ Clone the Repository
 
-### ▶️ Run Locally
-
-git clone https://github.com/Ryanrixx/aether-screen.git
+git clone https://github.com/yourusername/aether-screen.git
 cd aether-screen
+
+### 2️⃣ Install Dependencies
 npm install
 
-### 🧩 Environment Variables
+### 3️⃣ Create a .env file or .evn.local file
+VITE_OMDB_API_KEY=your_omdb_api_key
+VITE_APPWRITE_ENDPOINT=your_appwrite_endpoint
+VITE_APPWRITE_PROJECT_ID=your_appwrite_project_id
 
-Create a file named .env in the project root:
-VITE_OMDB_API_KEY=your_api_key_here
-VITE_APPWRITE_ENDPOINT=your_endpoint
-VITE_APPWRITE_PROJECT_ID=your_project_id
-
-### 🚀 Start Development Server
+### 4️⃣ Run Development Server
 npm run dev
-Now visit 👉 http://localhost:5173
+Open your browser at http://localhost:5173
 
-### 🌍 Deployment
+### 🖼️ Project Structure
 
-You can deploy easily on:
-Vercel
-Netlify
-GitHub Pages
+Aether-screen/
+│
+├── public/
+│   ├── logo.png
+│   ├── hero.png
+│   ├── herobg.png
+│   ├── search.svg
+│   ├── star.svg
+│
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── App.tsx
+│   ├── App.css
+│   ├── main.tsx
+│   └── appwrite.ts
+│
+├── .env.local
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
 
-### 🙌 Contributing
-Contributions, issues, and feature requests are welcome!
-Feel free to check the issues page.
+### 🌍 Cross-Platform Support
 
-### 📜 License
-This project is licensed under the MIT License.
+Aether Screen is fully optimized and tested for:
 
-### ⭐ If you like this project, please star the repo on GitHub!
+💻 Desktop (Windows, macOS, Linux)
+
+📱 Android & iOS (mobile browsers and PWA)
+
+💻 Tablets & iPads
+
+🌐 All modern browsers (Chrome, Firefox, Safari, Edge)
+
+### 🧑‍💻 Author
+
+### Shaan Rao/Ryan 
+Full-Stack Developer | Data Science & AI Student
+🔗 GitHub - https://github.com/Ryanrixx
+
+🪪 License
+
+This project is licensed under the MIT License — you are free to use, modify, and distribute it.
+
